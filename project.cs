@@ -53,17 +53,17 @@ namespace classSpace
 
         switch(decision){
             case 1:
-                small = getSmallCoffee(small);
+                small += getSmallCoffee(small);
                 profit = small * SMALL_PRICE;
                 ounces = small * SMALL_OUNCES;
                 break;
             case 2:
-                medium = getMediumCoffee(medium);
+                medium += getMediumCoffee(medium);
                 profit = medium * MEDIUM_PRICE;
                 ounces = medium * MEDIUM_OUNCES;
                 break;
             case 3:
-                large = getLargeCoffee(large);
+                large += getLargeCoffee(large);
                 profit = large * LARGE_PRICE;
                 ounces = large * LARGE_OUNCES;
                 break;
